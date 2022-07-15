@@ -4,4 +4,4 @@ description = "Theme inspired on Sweet Theme"
 version = "0.0.1"
 author = "felipetesc"
 repository = "felipetesc/lapce-sweetraw-theme"
-themes = ["aleph.toml"]
+themes = ["sweet-raw-theme.toml"]
