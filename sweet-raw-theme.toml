@@ -1,23 +1,8 @@
-
 [theme]
 name = "Sweet Raw"
 
 [ui]
-font-family = "Roboto"
-font-size = 14
-status-height = 30
-tab-min-width = 120
-drop-shadow-width = 1
-header-height = 40
-scroll-width = 10
-scroll-width = 15
-
-
-[terminal]
-font-family = "Roboto"
-font-size = 14
-line-height = 22
-shell = "bash"
+drop-shadow-width = 4
 
 [theme.base]
 white = "#ABB2BF"
@@ -32,50 +17,102 @@ purple = "#C678DD"
 cyan = "#56B6C2"
 magenta = "#C678DD"
 
+[theme.ui]
+"lapce.active_tab" = "$purple"
+"lapce.inactive_tab" = "#101012"
+"lapce.error" = "$red"
+"lapce.warn" = "$yellow"
+"lapce.dropdown_shadow" = "#000000"
+"lapce.border" = "#aaaaaa"
+"lapce.scroll_bar" = "#aaaaaa40"
+
+"terminal.cursor" = "#ffb638"
+"terminal.foreground" = "$orange"
+"terminal.background" = "#141417"
+"terminal.white" = "#eeeeee"
+"terminal.black" = "#141417"
+"terminal.red" = "#d62c2c"
+"terminal.blue" = "#28a9ff"
+"terminal.green" = "#42dd76"
+"terminal.yellow" = "#ffb638"
+"terminal.cyan" = "#14e5d4"
+"terminal.magenta" = "#e66dff"
+"terminal.bright_white" = "#28a9ff"
+"terminal.bright_red" = "#d62c2c"
+"terminal.bright_blue" = "#28a9ff"
+"terminal.bright_green" = "#42dd76"
+"terminal.bright_yellow" = "#ffb638"
+"terminal.bright_cyan" = "#14e5d4"
+"terminal.bright_magenta" = "#e66dff"
+"terminal.bright_black" = "#28a9ff"
+
+"editor.background" = "#141417"
+"editor.foreground" = "#eeeeee"
+"editor.dim" = "#20AA20"
+"editor.focus" = "#CCCCCC"
+"editor.caret" = "#528bff"
+"editor.selection" = "#aaaaaa25"
+"editor.current_line" = "#aaaaaa0c"
+"editor.link" = "$cyan"
+
+"inlay_hint.foreground" = "#6E7177"
+
+"source_control.added" = "#50a14f32"
+"source_control.removed" = "#ff526632"
+"source_control.modified" = "#0184bc32"
+
+"palette.background" = "#21252B"
+"palette.current" = "#2C313A"
+
+"completion.background" = "#21252B"
+"completion.current" = "#2C313A"
+
+"hover.background" = "#21252B"
+
+"activity.background" = "$black"
+"activity.current" = "#21252B"
+
+"panel.background" = "#141417"
+"panel.current" = "#262626"
+"panel.hovered" = "#4C4C4C"
+
+"status.background" = "#21252B"
+"status.modal.normal" = "$blue"
+"status.modal.insert" = "$red"
+"status.modal.visual" = "$yellow"
+"status.modal.terminal" = "$purple"
+
+"markdown.blockquote" = "#898989"
+
 [theme.syntax]
 "comment" = "#5C6370"
-"constant" = "$yellow"
-"type" = "$yellow"
-"typeAlias" = "$yellow"
+
+"constant" = "#D62C2C"
+"type" = "#A95EFF"
+"typeAlias" = "#b079ee"
 "number" = "$yellow"
-"enum" = "$yellow"
-"struct" = "$yellow"
-"structure" = "$yellow"
-"interface" = "$yellow"
-"attribute" = "$yellow"
+"enum" = "#9263D3"
+"enumMember" = "#AA63D3"
+"struct" = "#A95EFF"
+"structure" = "#A95EFF"
+"attribute" = "$orange"
 "constructor" = "$yellow"
+"variable" = "#FF478D"
+"macro" = "#28A9FF"
+"operator" = "#EEEEEE60"
+"variable.parameter" = "#FF478D"
+"selfKeyword" = "#14E5D4"
+"property" = "#FF7135"
+"interface" = "#DD46C2"
 "function" = "$blue"
-"method" = "$blue"
+"method" = "#28A9FF"
 "function.method" = "$blue"
-"keyword" = "$purple"
-"selfKeyword" = "$purple"
+"keyword" = "#14E5D4"
 "field" = "$red"
-"property" = "$red"
-"enumMember" = "$red"
 "enum-member" = "$red"
-"variable.other.member" = "$red"
+
 "string" = "$green"
 "type.builtin" = "$cyan"
 "builtinType" = "$cyan"
 "escape" = "$cyan"
 "embedded" = "$cyan"
-
-[theme.ui]
-"activity.background" = "#181b28"
-"completion.background" = "#181b28"
-"editor.background" = "#181b28"
-"lapce.border" = "#10121f"
-"lapce.dropdown_shadow" = "#10121f"
-"panel.background" = "#171926"
-"status.background" = "#10121f"
-"terminal.background" = "#10121f"
-"lapce.active_tab" = "#10121f"
-"activity.current" = "#181b28"
-"editor.focus" = "#c50ed2"
-"palette.background" = "#0c0e14"
-"palette.current" = "#202d40"
-
-[editor]
-font-family = "Roboto"
-font-size = 14
-tab-width = 5
