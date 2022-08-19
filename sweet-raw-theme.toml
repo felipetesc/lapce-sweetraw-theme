@@ -1,8 +1,9 @@
+
 [theme]
 name = "Sweet Raw"
 
 [ui]
-font-family = ""
+font-family = "Roboto"
 font-size = 14
 status-height = 30
 tab-min-width = 120
@@ -10,6 +11,13 @@ drop-shadow-width = 1
 header-height = 40
 scroll-width = 10
 scroll-width = 15
+
+
+[terminal]
+font-family = "Roboto"
+font-size = 14
+line-height = 22
+shell = "bash"
 
 [theme.base]
 white = "#ABB2BF"
@@ -53,67 +61,21 @@ magenta = "#C678DD"
 "embedded" = "$cyan"
 
 [theme.ui]
-"lapce.active_tab" = "$black"
-"lapce.inactive_tab" = "$grey"
-"lapce.error" = "$red"
-"lapce.warn" = "$yellow"
-"lapce.dropdown_shadow" = "#000000"
-"lapce.border" = "#000000"
-"lapce.scroll_bar" = "$grey"
+"activity.background" = "#181b28"
+"completion.background" = "#181b28"
+"editor.background" = "#181b28"
+"lapce.border" = "#10121f"
+"lapce.dropdown_shadow" = "#10121f"
+"panel.background" = "#171926"
+"status.background" = "#10121f"
+"terminal.background" = "#10121f"
+"lapce.active_tab" = "#10121f"
+"activity.current" = "#181b28"
+"editor.focus" = "#c50ed2"
+"palette.background" = "#0c0e14"
+"palette.current" = "#202d40"
 
-
-"editor.background" = "$black"
-"editor.foreground" = "$white"
-"editor.dim" = "#5C6370"
-"editor.focus" = "#CCCCCC"
-"editor.caret" = "#528BFF"
-"editor.selection" = "$grey"
-"editor.current_line" = "#2C313C"
-"editor.link" = "$cyan"
-
-"source_control.added" = "#50A14F32"
-"source_control.removed" = "#FF526632"
-"source_control.modified" = "#0184BC32"
-
-"palette.background" = "#21252B"
-"palette.current" = "#2C313A"
-
-"completion.background" = "#21252B"
-"completion.current" = "#2C313A"
-
-"hover.background" = "#21252B"
-
-"activity.background" = "#21252B"
-"activity.current" = "$black"
-
-"panel.background" = "#21252B"
-"panel.current" = "#2C313A"
-"panel.hovered" = "#343A45"
-
-"status.background" = "#21252B"
-"status.modal.normal" = "$blue"
-"status.modal.insert" = "$red"
-"status.modal.visual" = "$yellow"
-"status.modal.terminal" = "$purple"
-
-"markdown.blockquote" = "#898989"
-
-"terminal.cursor" = "$white"
-"terminal.foreground" = "$white"
-"terminal.background" = "$black"
-"terminal.white" = "$white"
-"terminal.black" = "$black"
-"terminal.red" = "$red"
-"terminal.blue" = "$blue"
-"terminal.green" = "$green"
-"terminal.yellow" = "$yellow"
-"terminal.cyan" = "$cyan"
-"terminal.magenta" = "$magenta"
-"terminal.bright_white" = "#C8CCD4"
-"terminal.bright_red" = "$red"
-"terminal.bright_blue" = "$blue"
-"terminal.bright_green" = "$green"
-"terminal.bright_yellow" = "$yellow"
-"terminal.bright_cyan" = "$cyan"
-"terminal.bright_magenta" = "$magenta"
-"terminal.bright_black" = "#545862"
+[editor]
+font-family = "Roboto"
+font-size = 14
+tab-width = 5

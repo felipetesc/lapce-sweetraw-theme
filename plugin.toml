@@ -1,7 +1,7 @@
 name = "sweet-raw"
 display-name = "Sweet Raw"
 description = "Dark theme inspired on Sweet Theme"
-version = "0.0.4"
+version = "0.0.3"
 author = "felipetesc"
 repository = "felipetesc/lapce-sweetraw-theme"
 themes = ["sweet-raw-theme.toml"]
