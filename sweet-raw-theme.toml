@@ -2,7 +2,7 @@
 name = "Sweet Raw"
 
 [ui]
-drop-shadow-width = 4
+drop-shadow-width = 0
 
 [theme.base]
 white = "#ABB2BF"
