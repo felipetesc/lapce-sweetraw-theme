@@ -53,7 +53,7 @@ magenta = "#C678DD"
 "editor.caret" = "#528bff"
 "editor.selection" = "#aaaaaa25"
 "editor.current_line" = "#aaaaaa0c"
-"editor.link" = "$cyan"
+"editor.link" = "$purple"
 
 "inlay_hint.foreground" = "#6E7177"
 
